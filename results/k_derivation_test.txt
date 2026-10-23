@@ -1,0 +1,19 @@
+1. Gas-rich galaxies (gas > 60% of the ordinary pull in the low-pull region): 16
+   star weight 0.25: best a0 = 9.176e-11   (all galaxies: 2.821e-10)
+   star weight 0.5: best a0 = 8.061e-11   (all galaxies: 1.216e-10)
+   star weight 0.75: best a0 = 7.180e-11   (all galaxies: 6.900e-11)
+   predictions with Planck: k=2pi -> 8.626e-11;  k=3pi/2 -> 1.150e-10;  k=4pi/3 -> 1.294e-10
+   predictions with SH0ES: k=2pi -> 9.444e-11;  k=3pi/2 -> 1.259e-10;  k=4pi/3 -> 1.417e-10
+
+2. Version A (x = 1/2 everywhere, a0 = 1.150e-10) vs version B (x from each galaxy's mass layout)
+   B's predicted a0 ranges 1.29e-10 to 1.71e-10 (median 1.57e-10)
+   total misfit (chi2): A = 49907, B = 53818  (lower is better)
+   do galaxies' own a0 follow B's prediction? rank correlation -0.00 (p = 0.97, n = 113)
+
+3. Misfit (chi2) for each candidate, star weight 0.5
+   k = 2pi (flat ring), Planck    a0 = 8.63e-11: all galaxies    62852   gas-rich   4115
+   k = 2pi, SH0ES                 a0 = 9.44e-11: all galaxies    58206   gas-rich   4244
+   k = 3pi/2 (ball), Planck       a0 = 1.15e-10: all galaxies    52844   gas-rich   4891
+   k = 3pi/2, SH0ES               a0 = 1.26e-10: all galaxies    52682   gas-rich   5360
+   gas-rich a0 with galaxy-to-galaxy uncertainty: 8.33e-11 (+2.16e-11/-1.60e-11)
+   gas-rich galaxies: D631-7, DDO154, DDO161, DDO168, DDO170, ESO444-G084, F565-V2, KK98-251, NGC3109, NGC3741, UGC00731, UGC00891, UGC04483, UGC05764, UGCA442, UGCA444

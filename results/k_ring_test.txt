@@ -1,0 +1,19 @@
+Planck: c H0 sqrt(OmegaL) = 5.420e-10
+   a0 = 9.10e-11: k = 5.96, x = k/pi - 1 = 0.90
+   a0 = 1.13e-10: k = 4.80, x = k/pi - 1 = 0.53
+   a0 = 1.45e-10: k = 3.74, x = k/pi - 1 = 0.19
+   small x (x = 0): a0 = 1.73e-10
+SH0ES: c H0 sqrt(OmegaL) = 5.934e-10
+   a0 = 9.10e-11: k = 6.52, x = k/pi - 1 = 1.08
+   a0 = 1.13e-10: k = 5.25, x = k/pi - 1 = 0.67
+   a0 = 1.45e-10: k = 4.09, x = k/pi - 1 = 0.30
+   small x (x = 0): a0 = 1.89e-10
+
+116 galaxies fitted one by one
+  median a0 = 1.16e-10; spread 0.29 dex; typical fit error 0.02 dex
+  a0 against disk scale length   : rank correlation -0.10 (p = 0.285)
+  a0 against disk area pi Rd^2   : rank correlation -0.10 (p = 0.285)
+  a0 against outermost radius    : rank correlation -0.11 (p = 0.220)
+  smaller half (Rd < 2.4 kpc): median a0 1.24e-10;  larger half: 1.11e-10
+  x each galaxy needs (Planck): median 0.49, middle 68% -0.26 to 1.72
+  if x = 2w/Rd + (w/Rd)^2 for a fixed ring width w, a0 would RISE with size; for x fixed, a0 is flat.

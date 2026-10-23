@@ -1,0 +1,15 @@
+=== All galaxies, one shared outside pull (Chae's average from neighbours: e = 0.033) ===
+  1-D form  : no outside pull 0.1437 dex   e = 0.033 for all 0.2366 dex
+  Chae form : no outside pull 0.1444 dex   e = 0.033 for all 0.1463 dex
+
+=== Each galaxy fitted with its own outside pull (Chae form) ===
+  133 galaxies with >= 6 points
+  prefer no outside pull (e < 0.002): 44%
+  prefer 0.002-0.03: 10%   0.03-0.1: 22%   above 0.1: 25%
+  median fitted e 0.014  (neighbour-based average: 0.033)
+
+  Showcase galaxies (outside pull from neighbours vs fitted from the rotation curve):
+    NGC5033  (strong neighbours) neighbours e = 0.050   fitted e = 0.005   fit: no outside pull 0.060 dex -> with neighbours' pull 0.073 dex
+    NGC5055  (strong neighbours) neighbours e = 0.040   fitted e = 0.121   fit: no outside pull 0.127 dex -> with neighbours' pull 0.098 dex
+    NGC1090  (isolated         ) neighbours e = 0.011   fitted e = 0.110   fit: no outside pull 0.098 dex -> with neighbours' pull 0.089 dex
+    NGC6674  (isolated         ) neighbours e = 0.011   fitted e = 0.000   fit: no outside pull 0.088 dex -> with neighbours' pull 0.094 dex

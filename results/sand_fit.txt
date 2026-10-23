@@ -1,0 +1,54 @@
+73 satellites; density vs size slope -1.48; classes: {'dense': 28, 'typical': 23, 'diffuse': 22}
+
+Part 1: best bumping laws (score = fraction of satellites whose state matches their look)
+  collapse threshold Nc= 100: best score 74% at s0 = 21 cm^2/g, w = 130.1 km/s   (no bumping: 32%)
+     within 3 points of best: s0 15-30 cm^2/g, w 46.7-1421.2 km/s
+  collapse threshold Nc= 300: best score 77% at s0 = 63 cm^2/g, w = 130.1 km/s   (no bumping: 32%)
+     within 3 points of best: s0 44-91 cm^2/g, w 50.8-1010.0 km/s
+  collapse threshold Nc=1000: best score 79% at s0 = 212 cm^2/g, w = 119.4 km/s   (no bumping: 32%)
+     within 3 points of best: s0 212-305 cm^2/g, w 46.7-605.0 km/s
+
+Using Nc = 300, s0 = 63, w = 130.1 km/s:
+  bumping strength at     5 km/s:    62.6585 cm^2/g
+  bumping strength at    10 km/s:    62.1074 cm^2/g
+  bumping strength at    20 km/s:    59.9740 cm^2/g
+  bumping strength at    50 km/s:    47.7019 cm^2/g
+  bumping strength at   200 km/s:     5.5510 cm^2/g
+  bumping strength at  2000 km/s:     0.0011 cm^2/g
+
+  satellite          size pc  speed    looks   bumps N       state  match
+  Draco                  258   9.55    dense     627.2  collapsing    yes
+  Leo I                  305   9.29    dense     411.9  collapsing    yes
+  Sculptor               298   9.20    dense     421.7  collapsing    yes
+  Fornax                 927  12.10    dense      95.4       cored     no
+  Willman 1               27   4.70    dense    7284.2  collapsing    yes
+  Ursa Minor             334   8.86    dense     300.4  collapsing    yes
+  Segue 1                 26   3.97    dense    4616.7  collapsing    yes
+  Sextans                648   7.90  typical      57.1       cored    yes
+  Carina                 331   6.60  typical     129.1       cored    yes
+  Reticulum II            49   3.60  typical     988.4  collapsing     no
+  Bootes I               214   4.00  diffuse      69.5       cored    yes
+  Andromeda XIX         2867   7.80  diffuse       2.8       cored    yes
+  Tucana II              216   3.80  diffuse      59.1       cored    yes
+  Antlia II             3172   5.98  diffuse       1.0       cored    yes
+  Crater II             1406   2.34  diffuse       0.3   untouched     no
+  dense   : 22/28 match
+  typical : 14/23 match
+  diffuse : 20/22 match
+
+Part 2: closest passes in a Milky Way with a dark halo (1e12 Msun) + LMC (1.5e11 Msun)
+LMC (with friction): now 49 kpc; most recent closest pass 47 kpc, 47 Myr ago; 4 Gyr ago at 701 kpc
+  42 satellites: density-for-size vs closest pass, rank correlation +0.09 (p = 0.565)
+  bright ones only (11): -0.02 (p = 0.958)
+  bumping sand + tides predicts NEGATIVE (dense <-> close passes); ordinary dark matter + tides predicts POSITIVE (close passes strip and thin them)
+    Ursa Minor         closest    40 kpc (1.2 Gyr ago)   looks dense    (density-for-size +0.33)
+    Crater II          closest    42 kpc (1.7 Gyr ago)   looks diffuse  (density-for-size -1.15)
+    Draco              closest    46 kpc (1.6 Gyr ago)   looks dense    (density-for-size +0.45)
+    Antlia II          closest    49 kpc (0.8 Gyr ago)   looks diffuse  (density-for-size -0.52)
+    Sculptor           closest    52 kpc (0.4 Gyr ago)   looks dense    (density-for-size +0.39)
+    Leo I              closest    55 kpc (1.1 Gyr ago)   looks dense    (density-for-size +0.39)
+    Canes Venatici I   closest    66 kpc (1.3 Gyr ago)   looks typical  (density-for-size +0.14)
+    Sextans            closest    76 kpc (0.3 Gyr ago)   looks typical  (density-for-size +0.08)
+    Leo II             closest    87 kpc (1.9 Gyr ago)   looks dense    (density-for-size +0.30)
+    Carina             closest   107 kpc (-0.0 Gyr ago)   looks typical  (density-for-size +0.07)
+    Fornax             closest   111 kpc (1.9 Gyr ago)   looks dense    (density-for-size +0.37)

@@ -1,0 +1,21 @@
+Loaded 3391 points from 175 galaxies
+After cut (velocity error < 10%): 2803 points, 164 galaxies
+Mismatch with Newton only (no dark matter, no a0): 0.518 dex
+Best a0 (scan): 1.1280e-10 m/s^2, mismatch 0.144 dex
+Bootstrap over galaxies: a0 = 1.128e-10 +/- 7.71e-12
+Effect of the stellar mass-to-light assumption:
+  disk 0.4, bulge 0.6:  a0 = 1.451e-10   mismatch 0.149 dex
+  disk 0.5, bulge 0.7:  a0 = 1.128e-10   mismatch 0.144 dex
+  disk 0.6, bulge 0.8:  a0 = 9.070e-11   mismatch 0.144 dex
+With the 'simple' transition formula instead: a0 = 1.101e-10 (mismatch 0.144 dex)
+Per-galaxy best a0 (141 galaxies with >=5 points): median 1.08e-10, middle 68% 5.45e-11 to 2.12e-10
+
+Candidates from the model's ingredients:
+  c*H0/2pi (Planck H0=67.4)                  1.042e-10   ratio to fit 0.92   mismatch 0.144 dex
+  c^2*sqrt(Lambda/3)/2pi (Planck H0=67.4)    8.626e-11   ratio to fit 0.76   mismatch 0.150 dex
+  c*H0/2pi (SH0ES H0=73.0)                   1.129e-10   ratio to fit 1.00   mismatch 0.144 dex
+  c^2*sqrt(Lambda/3)/2pi (SH0ES H0=73.0)     9.342e-11   ratio to fit 0.83   mismatch 0.147 dex
+
+Number the model would have to predict (instead of 2pi):
+  Planck:  c*H0/a0 = 5.81    c^2*sqrt(Lambda/3)/a0 = 4.80   (2pi = 6.28)
+  SH0ES:  c*H0/a0 = 6.29    c^2*sqrt(Lambda/3)/a0 = 5.20   (2pi = 6.28)

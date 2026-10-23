@@ -1,0 +1,88 @@
+Step 1: wrote predictions for 90 satellites (no measured speeds used)
+
+satellite              host     M_V  D kpc regime         rule13       range isolated      measured  off(σ)
+NGC 147                m_031 -16.57    106 isolated        27.08 22.77-32.20    27.08   16.00±1.00    -4.9
+NGC 185                m_031 -15.60    155 isolated        21.66 18.21-25.76    21.66   24.00±1.20    +1.0
+Andromeda VII          m_031 -12.78    230 isolated        11.31  9.51-13.46    11.31   13.00±1.00    +1.2
+Cassiopeia III         m_031 -12.40    145 outside pull    10.37  8.72-12.33    10.37    8.40±0.60    -1.9
+Andromeda II           m_031 -11.72    169 outside pull     8.86  7.45-10.54     8.86    7.80±1.10    -0.8
+Andromeda I            m_031 -11.35     44 outside pull     5.22  3.69- 7.38     8.14   10.20±1.90    +2.6
+Andromeda VI           m_031 -11.30    281 isolated         8.05  6.77- 9.57     8.05   13.20±1.35    +3.7
+Lacerta I              m_031 -11.21    260 isolated         7.88  6.63- 9.37     7.88   10.30±0.90    +2.2
+Andromeda XIX          m_031 -10.05    113 outside pull     2.81  1.98- 3.97     6.03    7.80±1.60    +3.8
+Andromeda XXIII        m_031  -9.76    127 outside pull     4.05  2.86- 5.72     5.64    6.80±1.40    +1.9
+LGS 3                  m_031  -9.61    292 isolated         5.45  4.59- 6.48     5.45    7.90±4.10    +0.7
+Andromeda III          m_031  -9.49     85 outside pull     5.29  3.74- 6.31     5.30    9.30±1.40    +2.8
+Andromeda V            m_031  -9.30    109 outside pull     5.08  3.68- 6.04     5.08   10.50±1.10    +4.5
+Andromeda XXV          m_031  -9.08     84 outside pull     3.00  2.12- 4.25     4.83    3.70±1.15    +0.6
+Andromeda XXI          m_031  -8.94    122 outside pull     3.00  2.12- 4.25     4.67    6.10±0.95    +3.0
+Perseus I              m_031  -8.87    340 isolated         4.60  3.87- 5.47     4.60    4.20±3.90    -0.1
+Andromeda XIV          m_031  -8.64    158 outside pull     4.36  3.33- 5.19     4.36    5.30±1.00    +0.9
+Andromeda IX           m_031  -8.63     82 outside pull     2.89  2.04- 4.08     4.35   10.90±2.00    +5.3
+Andromeda XXVIII       m_031  -8.51    368 isolated         4.23  3.56- 5.03     4.23    4.90±1.60    +0.4
+Andromeda XV           m_031  -8.37     95 outside pull     3.50  2.48- 4.87     4.10    4.00±1.40    +0.3
+Andromeda XXIX         m_031  -8.17    189 outside pull     3.91  3.26- 4.65     3.91    5.70±1.20    +1.6
+Andromeda XXVII        m_031  -7.90     79 outside pull     2.21  1.56- 3.13     3.68   14.80±3.70    +6.3
+Andromeda XVII         m_031  -7.80     47 outside pull     1.95  1.38- 2.76     3.59    2.90±2.05    +0.5
+Cassiopeia II          m_031  -7.74    237 outside pull     3.55  2.98- 4.22     3.55   11.80±6.20    +2.3
+Andromeda XVI          m_031  -7.47    279 isolated         3.33  2.80- 3.96     3.33    3.80±2.90    +0.2
+Andromeda X            m_031  -7.30    161 outside pull     3.20  2.35- 3.81     3.20    6.40±1.40    +2.8
+Andromeda XIII         m_031  -6.77    126 outside pull     2.84  2.02- 3.37     2.84    5.80±2.00    +1.9
+Andromeda XXII         m_031  -6.39    112 outside pull     2.19  1.55- 3.09     2.60    2.80±1.65    +0.4
+Andromeda XI           m_031  -6.38    103 outside pull     2.19  1.55- 3.08     2.59    7.60±3.40    +2.6
+Andromeda XX           m_031  -6.35    127 outside pull     2.57  2.09- 3.06     2.57    7.10±3.20    +2.2
+Andromeda XXVI         m_031  -5.98    102 outside pull     1.48  1.04- 2.09     2.36    8.60±2.50    +5.2
+Fornax                 mw    -13.39    145 isolated        13.02 10.95-15.48    13.02   12.10±0.60    -0.7
+Leo I                  mw    -11.82    262 isolated         9.07  7.63-10.79     9.07    9.29±0.46    +0.2
+Sculptor               mw    -10.77     84 isolated         7.12  5.99- 8.47     7.12    9.20±1.10    +1.7
+Antlia II              mw     -9.73    125 outside pull     2.91  2.06- 4.12     5.61    5.98±0.36    +3.9
+Leo II                 mw     -9.48    211 isolated         5.29  4.45- 6.29     5.29    7.53±0.38    +3.5
+Carina                 mw     -9.43    107 outside pull     5.23  4.40- 6.22     5.23    6.60±1.20    +1.2
+Draco                  mw     -8.87     82 outside pull     4.60  3.87- 5.47     4.60    9.55±0.48    +7.3
+Ursa Minor             mw     -8.86     72 outside pull     4.51  3.19- 5.46     4.59    8.86±0.44    +4.7
+Canes Venatici I       mw     -8.73    211 outside pull     4.45  3.74- 5.30     4.45    7.66±0.42    +5.3
+Sextans                mw     -8.72     89 outside pull     3.39  2.39- 4.79     4.44    7.90±1.30    +3.5
+Crater II              mw     -8.18    116 outside pull     2.05  1.45- 2.91     3.92    2.34±0.36    +0.6
+Eridanus II            mw     -7.12    372 isolated         3.07  2.58- 3.66     3.07    6.90±1.05    +4.6
+Bootes I               mw     -6.02     64 outside pull     1.43  1.01- 2.02     2.39    4.00±0.35    +5.3
+Bootes III             mw     -5.83     47 outside pull     0.65  0.46- 0.92     2.28    1.69±0.94    +1.6
+Hercules               mw     -5.81    125 outside pull     2.14  1.52- 2.70     2.27    2.25±0.64    +0.2
+Centaurus I            mw     -5.35    114 outside pull     2.04  1.51- 2.43     2.04    4.20±0.55    +4.1
+Canes Venatici II      mw     -5.17    161 outside pull     1.96  1.65- 2.33     1.96    5.28±1.10    +4.4
+Ursa Major I           mw     -5.14    102 outside pull     1.26  0.89- 1.78     1.95    7.16±1.12    +7.4
+Leo IV                 mw     -4.95    152 outside pull     1.73  1.22- 2.22     1.86    3.29±0.78    +2.3
+Hydrus I               mw     -4.71     24 outside pull     0.79  0.56- 1.12     1.76    2.70±0.47    +5.0
+Carina II              mw     -4.57     19 outside pull     0.53  0.37- 0.75     1.71    3.40±1.00    +5.4
+Ursa Major II          mw     -4.42     41 outside pull     0.71  0.50- 1.00     1.65    6.30±1.00    +9.3
+Leo V                  mw     -4.40    170 outside pull     1.64  1.38- 1.95     1.64    3.37±1.38    +1.7
+Aquarius II            mw     -4.36    105 outside pull     0.98  0.70- 1.39     1.63    4.70±1.50    +4.3
+Coma Berenices         mw     -4.29     43 outside pull     0.89  0.63- 1.26     1.60    3.33±0.52    +5.6
+Pisces II              mw     -4.28    182 outside pull     1.60  1.32- 1.90     1.60    3.72±1.66    +1.9
+Pegasus IV             mw     -4.25     89 outside pull     1.48  1.05- 1.89     1.59    3.33±1.02    +2.4
+Columba I              mw     -4.20    187 outside pull     1.39  0.98- 1.87     1.57    5.96±2.29    +3.5
+Pegasus III            mw     -4.17    213 outside pull     1.56  1.12- 1.85     1.56    2.76±1.07    +1.4
+Grus I                 mw     -4.13    123 outside pull     1.00  0.71- 1.42     1.54    2.50±1.05    +2.0
+Tucana II              mw     -3.75     52 outside pull     0.45  0.32- 0.64     1.41    3.80±0.90    +7.3
+Leo VI                 mw     -3.56    114 outside pull     0.85  0.60- 1.20     1.35    2.85±1.44    +2.3
+Eridanus IV            mw     -3.55     76 outside pull     0.85  0.60- 1.20     1.35    6.10±1.05    +8.1
+Horologium I           mw     -3.38     38 outside pull     0.72  0.51- 1.02     1.30    4.90±1.85    +4.6
+Reticulum II           mw     -3.10     22 outside pull     0.43  0.31- 0.61     1.22    3.60±0.85    +7.2
+Tucana IV              mw     -3.00     44 outside pull     0.37  0.26- 0.53     1.19    4.30±1.35    +6.8
+Bootes II              mw     -2.94     40 outside pull     0.59  0.42- 0.83     1.17    1.92±0.69    +3.0
+Pictor II              mw     -2.65     12 outside pull     0.25  0.18- 0.36     1.10    3.50±1.00    +7.8
+Willman 1              mw     -2.53     43 outside pull     0.65  0.46- 0.92     1.07    4.70±1.40    +5.7
+Carina III             mw     -2.40     25 outside pull     0.46  0.33- 0.65     1.04    5.60±3.20    +4.2
+Segue 1                mw     -1.30     28 outside pull     0.29  0.21- 0.42     0.80    3.97±0.92    +9.0
+Tucana V               mw     -1.10     52 outside pull     0.35  0.25- 0.50     0.77    1.20±0.75    +1.9
+
+Classical (M_V < -7.7): 35 satellites
+  rule 13:          within 2 sigma  51%   median measured/predicted 1.45   chi2/N 9.6
+  no outside pull:  within 2 sigma  60%   median measured/predicted 1.26   chi2/N 7.3
+
+Ultra-faint (M_V > -7.7): 38 satellites
+  rule 13:          within 2 sigma  24%   median measured/predicted 3.39   chi2/N 22.9
+  no outside pull:  within 2 sigma  34%   median measured/predicted 2.17   chi2/N 9.9
+
+Outside-pull regime only: 59 satellites
+  rule 13:          within 2 sigma  31%   median measured/predicted 2.50   chi2/N 19.0
+  no outside pull:  within 2 sigma  42%   median measured/predicted 2.00   chi2/N 9.3

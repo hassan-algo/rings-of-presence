@@ -1,0 +1,20 @@
+B1. Planets' rings and their outermost moons
+  Earth    ring     1.50 M km   outermost Moon            0.38 M km = 0.26 of ring (prograde; stable limit ~0.5)  inside
+  Mars     ring     1.08 M km   outermost Deimos          0.02 M km = 0.02 of ring (prograde; stable limit ~0.5)  inside
+  Jupiter  ring    53.14 M km   outermost Kore           24.20 M km = 0.46 of ring (retrograde; stable limit ~0.7)  inside
+  Saturn   ring    65.47 M km   outermost S/2004 S 52    26.45 M km = 0.40 of ring (retrograde; stable limit ~0.7)  inside
+  Uranus   ring    70.08 M km   outermost Ferdinand      20.42 M km = 0.29 of ring (retrograde; stable limit ~0.7)  inside
+  Neptune  ring   116.03 M km   outermost S/2021 N 1     50.70 M km = 0.44 of ring (retrograde; stable limit ~0.7)  inside
+
+B2. Satellites inside their galaxy's ring
+  Milky Way: ring (share of the Local Group) 269 kpc; 68 satellites; farthest 372 kpc; beyond the ring: 1 (372 kpc)
+  Andromeda: ring (share of the Local Group) 323 kpc; 43 satellites; farthest 427 kpc; beyond the ring: 3 (340, 368, 427 kpc)
+
+B3. Local Group balance ring from galaxy velocities
+  132 galaxies between 0.35 and 3 Mpc from the Local Group centre
+  fit v = H r (1 - (R0/r)^2): R0 = 0.60 +/- 0.05 Mpc, H = 71 km/s/Mpc, scatter 94 km/s
+  bootstrap R0 = 0.60 (+0.05/-0.06) Mpc  [Karachentsev et al. 2009: 0.96 +/- 0.03]
+  emptiness limit for M = 1.9e+12 Suns: R_max = 1.38 Mpc  -> measured ring inside
+  emptiness limit for M = 3.0e+12 Suns: R_max = 1.60 Mpc  -> measured ring inside
+  emptiness limit for M = 5.0e+12 Suns: R_max = 1.90 Mpc  -> measured ring inside
+  median velocity by distance (Mpc: km/s, n): 0.47: -31 (78); 0.72: +3 (6); 0.98: +9 (3); 1.73: +109 (8); 1.98: +92 (6); 2.23: +120 (6); 2.48: +172 (7); 2.73: +251 (7)

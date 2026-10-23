@@ -1,0 +1,35 @@
+1590 supernovae, z = 0.010 to 2.26
+  best Omega_m = 0.332 (+0.017/-0.018); emptiness share = 0.668
+  free tension: w = -0.952 (+0.042/-0.043); expansion speeds up only if w < -1/3
+
+  model                                       chi2  worse by
+  1. matter + emptiness (Lambda)            1402.9       0.0
+  2. matter only                            2101.1     698.2
+  3. energized dark matter (w=+1/3)         3110.6    1707.6
+  4. open, matter only (Om=0.31)            1557.9     155.0
+  5. empty, coasting                        1451.4      48.5
+  6. tired light, static                    3305.2    1902.3
+  7. emptiness with free tension w          1402.6      -0.3
+
+  binned data minus coasting universe (mag): z, value, error, n
+  0.015 +0.046 0.016 154
+  0.026 +0.013 0.009 279
+  0.041 +0.031 0.014 101
+  0.061 +0.025 0.016 69
+  0.080 +0.070 0.026 27
+  0.129 +0.065 0.014 85
+  0.180 +0.057 0.011 122
+  0.248 +0.077 0.009 259
+  0.336 +0.110 0.010 186
+  0.438 +0.104 0.014 98
+  0.569 +0.065 0.015 117
+  0.730 +0.044 0.022 63
+  0.855 +0.001 0.079 5
+  1.048 +0.226 0.075 9
+  1.404 -0.106 0.056 16
+
+  model curves minus coasting (mag), same offset as data:
+  Lambda: +0.011 +0.025 +0.046 +0.075 +0.093 +0.100 +0.080 +0.022 -0.086 -0.268
+  matter only: -0.011 -0.027 -0.055 -0.110 -0.166 -0.276 -0.383 -0.537 -0.729 -0.990
+  energized DM: -0.021 -0.052 -0.104 -0.203 -0.297 -0.476 -0.641 -0.867 -1.137 -1.487
+  tired light: -0.022 -0.054 -0.107 -0.210 -0.310 -0.499 -0.677 -0.924 -1.221 -1.613

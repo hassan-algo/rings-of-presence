@@ -1,0 +1,11 @@
+Hulse-Taylor orbit: Pb = 7.752 h, e = 0.617134, a = 1,949,032 km, 1000 orbits (323 days)
+
+Newton only                       passages 1000  period 27906.979585 s  dPb/dt -1.1526e-13  (-0.150 mm/orbit)  periastron advance 0.0000 deg/yr  [fit residual 1.5e-06 s, 11s]
+Fixed rules, no waves (control)   passages 1000  period 27911.218069 s  dPb/dt -1.2322e-13  (-0.160 mm/orbit)  periastron advance 4.2255 deg/yr  [fit residual 7.8e-06 s, 19s]
+Fixed rules + waves (rule 9)      passages 1000  period 27911.218035 s  dPb/dt -2.5255e-12  (-3.281 mm/orbit)  periastron advance 4.2255 deg/yr  [fit residual 9.0e-06 s, 20s]
+
+Predicted wave decay (Peters & Mathews 1963): dPb/dt = -2.4021e-12  (-3.121 mm/orbit)
+Simulated (full minus control):              dPb/dt = -2.4022e-12   ratio to prediction 1.0001
+Measured / predicted for the real pulsar (Weisberg & Huang 2016): 0.9983 +/- 0.0016
+
+Periastron advance: (v/c)^2 formula 4.2262 deg/yr;  measured 4.2266 deg/yr

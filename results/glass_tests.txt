@@ -1,0 +1,38 @@
+=== Test A: heat from star formation (Read, Walker & Steger 2019 data) ===
+  Ursa Minor  dSph stars/dark  0.010%   centre density 1.53 x1e8 Msun/kpc^3   star formation stopped 12.4 Gyr ago
+  Draco       dSph stars/dark  0.016%   centre density 2.36 x1e8 Msun/kpc^3   star formation stopped 11.7 Gyr ago
+  Sextans     dSph stars/dark  0.022%   centre density 1.28 x1e8 Msun/kpc^3   star formation stopped 10.6 Gyr ago
+  Sculptor    dSph stars/dark  0.040%   centre density 1.49 x1e8 Msun/kpc^3   star formation stopped 11.8 Gyr ago
+  Leo II      dSph stars/dark  0.046%   centre density 1.84 x1e8 Msun/kpc^3   star formation stopped  6.3 Gyr ago
+  Carina      dSph stars/dark  0.048%   centre density 1.16 x1e8 Msun/kpc^3   star formation stopped  2.8 Gyr ago
+  DDO 154     dIrr stars/dark  0.066%   centre density 0.46 x1e8 Msun/kpc^3   star formation stopped  0.0 Gyr ago
+  Leo I       dSph stars/dark  0.098%   centre density 1.77 x1e8 Msun/kpc^3   star formation stopped  3.1 Gyr ago
+  Aquarius    dIrr stars/dark  0.100%   centre density 0.36 x1e8 Msun/kpc^3   star formation stopped  0.0 Gyr ago
+  WLM         dIrr stars/dark  0.195%   centre density 0.52 x1e8 Msun/kpc^3   star formation stopped  0.0 Gyr ago
+  Fornax      dSph stars/dark  0.196%   centre density 0.79 x1e8 Msun/kpc^3   star formation stopped  1.8 Gyr ago
+  CVnIdwA     dIrr stars/dark  0.241%   centre density 0.33 x1e8 Msun/kpc^3   star formation stopped  0.0 Gyr ago
+  DDO 168     dIrr stars/dark  0.281%   centre density 0.31 x1e8 Msun/kpc^3   star formation stopped  0.0 Gyr ago
+  NGC 2366    dIrr stars/dark  0.290%   centre density 0.18 x1e8 Msun/kpc^3   star formation stopped  0.0 Gyr ago
+  DDO 87      dIrr stars/dark  0.292%   centre density 0.31 x1e8 Msun/kpc^3   star formation stopped  0.0 Gyr ago
+  DDO 52      dIrr stars/dark  0.439%   centre density 0.38 x1e8 Msun/kpc^3   star formation stopped  0.0 Gyr ago
+  stars per dark matter vs centre density (all 16)               rank correlation -0.83  (p = 0.000, n = 16)
+  how long ago star formation stopped vs centre density (all 16) rank correlation +0.87  (p = 0.000, n = 16)
+  stars per dark matter vs centre density (8 satellites only)    rank correlation -0.45  (p = 0.260, n = 8)
+  stopped >6 Gyr ago: mean centre density 1.70;  still/recently forming (<3 Gyr): 0.48  (x1e8 Msun/kpc^3; ordinary dense centre ~ above 1)
+
+=== Test B: fast movers (Milky Way with dark halo + LMC) ===
+  B1: the 8 satellites with measured centre density
+    Leo I       speed now  187 km/s   at closest pass  354 km/s (  55 kpc)   centre density 1.77
+    Draco       speed now  184 km/s   at closest pass  267 km/s (  46 kpc)   centre density 2.36
+    Ursa Minor  speed now  168 km/s   at closest pass  262 km/s (  40 kpc)   centre density 1.53
+    Sculptor    speed now  186 km/s   at closest pass  258 km/s (  52 kpc)   centre density 1.49
+    Sextans     speed now  229 km/s   at closest pass  254 km/s (  76 kpc)   centre density 1.28
+    Leo II      speed now  103 km/s   at closest pass  245 km/s (  87 kpc)   centre density 1.84
+    Fornax      speed now  133 km/s   at closest pass  193 km/s ( 111 kpc)   centre density 0.79
+    Carina      speed now  189 km/s   at closest pass  189 km/s ( 107 kpc)   centre density 1.16
+  speed now vs centre density                                    rank correlation -0.29  (p = 0.493, n = 8)
+  speed at closest pass vs centre density                        rank correlation +0.69  (p = 0.058, n = 8)
+  B2: all 42 satellites with 3-D motions (density-for-size from star speeds)
+  speed now vs density-for-size                                  rank correlation -0.23  (p = 0.142, n = 42)
+  speed at closest pass vs density-for-size                      rank correlation -0.31  (p = 0.048, n = 42)
+  fastest half: median density-for-size -0.09;  slowest half: +0.08  (negative = smoother/more spread out)

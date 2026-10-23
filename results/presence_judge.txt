@@ -1,0 +1,49 @@
+
+=== The Moon (who owns it?) ===
+  source              presence P  pull m/s^2
+  Earth                 1.15e-11    2.70e-03
+  Sun                   9.87e-09    5.93e-03
+  Jupiter (closest)     2.24e-12    3.21e-07
+  Venus (closest)       8.63e-14    1.85e-07
+  Milky Way             1.68e-06    2.09e-10
+  owner test: Earth's pull 2.70e-03 vs total stretch from outside 3.05e-05  -> Earth owns it (88x)
+     stretch from Sun        3.05e-05
+     stretch from Venus (closest) 3.40e-09
+     stretch from Jupiter (closest) 3.93e-10
+     stretch from Milky Way  3.18e-22
+     stretch from emptiness  1.27e-27
+
+=== The Earth ===
+  source              presence P  pull m/s^2
+  Sun                   9.87e-09    5.93e-03
+  Jupiter (closest)     2.24e-12    3.21e-07
+  Venus (closest)       8.63e-14    1.85e-07
+  Milky Way             1.68e-06    2.09e-10
+  owner test: Sun's pull 5.93e-03 vs total stretch from outside 1.48e-06  -> Sun owns it (4,021x)
+     stretch from Venus (closest) 1.32e-06
+     stretch from Jupiter (closest) 1.53e-07
+     stretch from Milky Way  1.24e-19
+     stretch from emptiness  4.93e-25
+
+=== Sun's outer comet cloud at 100,000 AU ===
+  source              presence P  pull m/s^2
+  Sun                   9.87e-14    5.93e-13
+  Alpha Centauri        7.14e-14    1.55e-13
+  Milky Way             1.68e-06    2.09e-10
+  owner test: Sun's pull 5.93e-13 vs total stretch from outside 1.25e-13  -> Sun owns it (5x)
+     stretch from Alpha Centauri 1.12e-13
+     stretch from Milky Way  1.24e-14
+     stretch from emptiness  4.93e-20
+
+=== Comet at 400,000 AU ===
+  source              presence P  pull m/s^2
+  Sun                   2.47e-14    3.71e-14
+  Alpha Centauri        7.14e-14    1.55e-13
+  Milky Way             1.68e-06    2.09e-10
+  owner test: Sun's pull 3.71e-14 vs total stretch from outside 4.99e-13  -> Sun does NOT own it (0x)
+     stretch from Alpha Centauri 4.49e-13
+     stretch from Milky Way  4.94e-14
+     stretch from emptiness  1.97e-19
+
+Galaxy pull at the Sun: 2.09e-10 m/s^2 = 1.9 a0 -> ordinary matter alone ~0.0e+00 (solve a0 rule)
+  ordinary matter's pull there 1.41e-10 (1.2 a0); dark layer supplies 33% of the pull

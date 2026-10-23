@@ -1,0 +1,22 @@
+Pound-Rebka shift: 2.458e-15
+GPS: gravity +45.7 us/day, motion -7.2 us/day, net +38.5 us/day
+Light bending: old 0.876"  new 1.751"
+Radar delay: old 116 us  new 233 us
+Mercury (numerical, analytic) arcsec/century:
+  Old rule 3 (pull only)                  0.00     0.00
+  New rule 3, clocks only                28.65    28.65
+  New rule 3 + 2b (no rule 7)            14.33    14.33
+  New rule 3 + rule 7 (no 2b)            57.31    57.31
+  Full model: rules 2b + 3 + 7           42.98    42.98
+Sun mass loss from light: -6.760e-14/yr; with wind -8.760e-14 to -1.366e-13
+GW170817 naive speed difference bound: 4.1e-16
+5th dimension: force ratio at 52 um for R (um): {100: np.float64(7.69), 50: np.float64(3.85), 30: np.float64(2.33), 10: np.float64(1.07)}
+a0 from cH0/2pi: Planck 1.042e-10, SH0ES 1.129e-10  (measured 1.2e-10)
+  galaxy        z     a0 x   const(a,b)   [published a,b]   a0~H(a,b)    measured
+  COS4 01351   0.85  1.64   0.26,0.23     [0.26,0.22]       0.37,0.35    0.21 ± 0.10
+  D3a 6397     1.50  2.37   0.22,0.18     [0.22,0.18]       0.40,0.39    0.17 (< 0.38)
+  GS4 43501    1.61  2.51   0.22,0.18     [0.22,0.17]       0.41,0.39    0.19 ± 0.09
+  zC 406690*   2.20  3.31   0.19,0.14     [0.18,0.14]       0.43,0.41    0 (< 0.08)
+  zC 400569    2.24  3.38   0.08,0.04     [0.08,0.04]       0.24,0.20    0 (< 0.07)
+  D3a 15504    2.38  3.59   0.20,0.16     [0.20,0.16]       0.47,0.46    0.12 (< 0.26)
+Light on light: NIF 1.3e-34 rad, petawatt 2.0e-37 rad

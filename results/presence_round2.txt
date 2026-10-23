@@ -1,0 +1,35 @@
+A1. Presence, pull and stretch at Earth from every source
+  source               presence  pull m/s2 stretch m/s2
+  Earth itself         6.96e-10   9.82e+00            -
+  Moon                 1.42e-13   3.32e-05     1.10e-06
+  Sun                  9.87e-09   5.93e-03     5.05e-07
+  Venus (closest)      8.63e-14   1.85e-07     5.63e-11
+  Jupiter (closest)    2.24e-12   3.21e-07     6.51e-12
+  Andromeda            9.38e-08   3.57e-13     1.93e-28
+  Virgo cluster        2.32e-06   4.10e-13     1.03e-29
+  Milky Way            1.68e-06   2.09e-10     5.26e-24
+  whole universe           0.75 0 (uniform)     2.10e-29  (emptiness)
+  tides: Sun/Moon = 0.460  (measured equilibrium S2/M2 = 0.46)
+
+A2. Clocks
+  GPS: +45.72 (presence) -7.21 (speed) = +38.51 us/day; built-in offset 4.4647e-10 = 38.58 us/day
+  Gravity Probe A, 10,000 km up: presence difference 4.252e-10; confirmed to 1.4e-4 (1976)
+  Galileo 5/6 (e=0.157): periodic clock swing amplitude 369 ns; confirmed to 2.5e-5 (2018)
+  Galileo 5/6 (e=0.162): periodic clock swing amplitude 381 ns; confirmed to 2.5e-5 (2018)
+  Pound-Rebka 22.5 m: 2.456e-15; Bothwell 1 mm: 1.090e-19 (measured (0.98+/-0.23)e-19)
+  Earth's yearly clock swing from the Sun's presence: 1.656 ms (pulsar timing: ~1.6 ms)
+
+C. Three presences
+  Earth-Moon balance point: 4,668 km from Earth's centre
+  Earth's ring (L1/L2): 1.50 million km (SOHO at L1, Webb at L2 ~1.5 million km)
+  Moon: Sun's pull 5.93e-03 vs Earth's 2.70e-03 -> Moon's path always bends toward the Sun
+  Moon owned by Earth: Earth's pull / Sun's stretch = 88
+  Nordtvedt: Earth self-presence 4.6e-10 vs Moon 1.9e-11; theory (rule 2b applied to pull, fall and inertia alike) -> eta = 0; lunar laser ranging: eta = (-0.2 +/- 1.1)e-4
+
+Q. Superposition lifetimes from presence, tau = hbar / E_G (mass smoothed over >= 0.54 Angstrom)
+  Rb-87 atoms 54 cm apart, ~2 s (Kovachy 2015)               presence lifetime  1.1e+08 years; experiment: interference seen; consistent: presence too slow to matter
+  25,000 u molecules (Fein 2019)                             presence lifetime  2.4e+04 years; experiment: interference seen; consistent: presence too slow to matter
+  C70, heated / in gas (Hackermuller 2004, Hornberger 2003)  presence lifetime  1.1e+07 years; experiment: lost: photons and gas molecules recorded the path; consistent: presence too slow to matter
+  1 um glass bead                                            presence lifetime          0.5 s; experiment: not yet done; prediction
+  10 um glass bead                                           presence lifetime        5e-06 s; experiment: not yet done; prediction
+  simplest version (mass packed like nuclei): excluded underground at Gran Sasso (Donadi 2020); smoothing >= 0.54 Angstrom required

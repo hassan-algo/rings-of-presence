@@ -1,0 +1,15 @@
+Binary: separation 1,949,032 km, light-time across 6.50 s, relative speed 439 km/s (v/c = 1.46e-03)
+Each star moves 1402 km while the other's presence crosses the gap
+
+instant  : separation after 60 orbits (19.4 days): -0.0000%   (-0.00 km)
+was      : separation after 60 orbits (19.4 days): +45.0301%   (+877,651.55 km)
+velocity : separation after 60 orbits (19.4 days): +0.0000%   (+0.89 km)
+vel+acc  : separation after 60 orbits (19.4 days): -0.0000%   (-0.34 km)
+
+Pure delay, analytic: separation grows by e (x2.72) every 35 days
+
+Gravitational-wave decay predicted for PSR B1913+16: dPb/dt = -2.4021e-12
+  = orbit period shorter by 75.8 microseconds per year
+  = separation shrinking by 3.53 m per year
+  Measured / predicted (Weisberg & Huang 2016): 0.9983 +/- 0.0016
+  Time to merge from now: 1637 Myr (circular-orbit formula; eccentricity makes it shorter)

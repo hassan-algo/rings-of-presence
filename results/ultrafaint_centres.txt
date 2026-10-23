@@ -1,0 +1,87 @@
+
+=== ULTRA-FAINT (too few stars to heat, M* < ~1e5): 35 satellites ===
+  satellite              stars r_half pc  measured   untouched range  verdict
+  Bootes III           3.7e+04       622     0.001   0.016 -  0.074  smooth-centre candidate
+  Hercules             3.6e+04       158     0.034   0.153 -  0.405  smooth-centre candidate
+  Tucana V             4.7e+02        30     0.259   1.168 -  2.338  smooth-centre candidate
+  Grus I               7.7e+03       151     0.046   0.162 -  0.426  smooth-centre candidate
+  Andromeda XXII       6.2e+04       160     0.051   0.151 -  0.401  dense centre OK
+  Bootes II            2.6e+03        44     0.317   0.770 -  1.597  dense centre OK
+  Pegasus III          8.0e+03       109     0.106   0.252 -  0.608  dense centre OK
+  Leo VI               4.5e+03       116     0.101   0.234 -  0.572  dense centre OK
+  Leo IV               1.6e+04       135     0.099   0.191 -  0.484  dense centre OK
+  Tucana II            5.4e+03       216     0.052   0.097 -  0.284  dense centre OK
+  Hydrus I             1.3e+04        70     0.249   0.446 -  0.984  dense centre OK
+  Bootes I             4.4e+04       214     0.058   0.097 -  0.286  dense centre OK
+  Carina II            1.2e+04       102     0.185   0.277 -  0.656  dense centre OK
+  Coma Berenices       8.9e+03        73     0.344   0.421 -  0.936  dense centre OK
+  Tucana IV            2.7e+03       131     0.180   0.199 -  0.500  dense centre OK
+  Aquarius II          9.5e+03       165     0.135   0.144 -  0.386  dense centre OK
+  Pisces II            8.8e+03        75     0.409   0.408 -  0.912  dense centre OK
+  Pegasus IV           8.6e+03        56     0.599   0.588 -  1.254  dense centre OK
+  Centaurus I          2.4e+04        95     0.328   0.305 -  0.712  dense centre OK
+  Leo V                9.8e+03        47     0.857   0.714 -  1.492  dense centre OK
+  Reticulum II         3.0e+03        49     0.913   0.686 -  1.440  dense centre OK
+  Pictor II            2.0e+03        42     1.130   0.802 -  1.656  dense centre OK
+  Andromeda XIII       8.7e+04       151     0.246   0.163 -  0.426  dense centre OK
+  Columba I            8.2e+03       130     0.351   0.201 -  0.505  dense centre OK
+  Ursa Major I         1.9e+04       200     0.213   0.108 -  0.309  dense centre OK
+  Ursa Major II        1.0e+04       123     0.439   0.217 -  0.536  dense centre OK
+  Canes Venatici II    2.0e+04        72     0.894   0.429 -  0.953  dense centre OK
+  Andromeda XI         6.1e+04       145     0.457   0.172 -  0.446  denser than untouched
+  Eridanus IV          4.5e+03        75     1.104   0.409 -  0.914  denser than untouched
+  Andromeda XXVI       4.2e+04       220     0.255   0.094 -  0.278  dense centre OK
+  Horologium I         3.8e+03        42     2.242   0.807 -  1.666  denser than untouched
+  Segue 1              5.7e+02        26     3.875   1.385 -  2.741  denser than untouched
+  Andromeda XX         5.9e+04        97     0.899   0.297 -  0.696  denser than untouched
+  Willman 1            1.8e+03        27     5.183   1.350 -  2.676  denser than untouched
+  Carina III           1.6e+03        26     7.717   1.385 -  2.742  denser than untouched
+  smooth-centre candidate      4 / 35  (11%)
+  dense centre OK             24 / 35  (69%)
+  denser than untouched        7 / 35  (20%)
+
+=== BRIGHTER (enough stars to heat): 38 satellites ===
+  satellite              stars r_half pc  measured   untouched range  verdict
+  Crater II            3.2e+05      1406     0.000   0.003 -  0.021  smooth-centre candidate
+  Andromeda XVII       2.3e+05       287     0.017   0.062 -  0.202  smooth-centre candidate
+  Andromeda XXV        7.3e+05       749     0.004   0.011 -  0.057  dense centre OK
+  Andromeda XV         3.8e+05       327     0.025   0.050 -  0.172  dense centre OK
+  Perseus I            6.0e+05       363     0.022   0.042 -  0.151  dense centre OK
+  Andromeda XVI        1.7e+05       168     0.085   0.139 -  0.377  dense centre OK
+  Andromeda XXVIII     4.3e+05       303     0.044   0.056 -  0.189  dense centre OK
+  Andromeda XIV        4.9e+05       395     0.030   0.036 -  0.136  dense centre OK
+  Andromeda XXIX       3.2e+05       322     0.052   0.051 -  0.175  dense centre OK
+  Andromeda XXI        6.4e+05       974     0.007   0.006 -  0.039  dense centre OK
+  Andromeda XXIII      1.4e+06      1194     0.005   0.004 -  0.028  dense centre OK
+  Antlia II            1.3e+06      3172     0.001   0.000 -  0.005  dense centre OK
+  Carina               1.0e+06       331     0.066   0.049 -  0.170  dense centre OK
+  Andromeda X          1.4e+05       234     0.125   0.085 -  0.258  dense centre OK
+  Eridanus II          1.2e+05       239     0.139   0.083 -  0.252  dense centre OK
+  Canes Venatici I     5.3e+05       435     0.052   0.030 -  0.120  dense centre OK
+  Sextans              5.3e+05       648     0.025   0.014 -  0.070  dense centre OK
+  Andromeda II         8.3e+06      1255     0.006   0.004 -  0.026  dense centre OK
+  LGS 3                1.2e+06       439     0.054   0.030 -  0.118  dense centre OK
+  Cassiopeia III       1.6e+07      1230     0.008   0.004 -  0.027  dense centre OK
+  Andromeda XIX        1.8e+06      2867     0.001   0.001 -  0.006  dense centre OK
+  Leo II               1.1e+06       197     0.244   0.111 -  0.315  dense centre OK
+  Ursa Minor           6.0e+05       334     0.117   0.048 -  0.168  dense centre OK
+  Andromeda III        1.1e+06       357     0.113   0.043 -  0.155  dense centre OK
+  Sculptor             3.5e+06       298     0.159   0.058 -  0.193  dense centre OK
+  Leo I                9.1e+06       305     0.154   0.056 -  0.187  dense centre OK
+  Andromeda I          5.9e+06       996     0.017   0.006 -  0.037  dense centre OK
+  Lacerta I            5.2e+06       694     0.037   0.013 -  0.064  dense centre OK
+  Draco                6.0e+05       258     0.229   0.073 -  0.230  dense centre OK
+  Andromeda V          9.0e+05       403     0.113   0.035 -  0.132  dense centre OK
+  Andromeda IX         4.8e+05       525     0.072   0.022 -  0.094  dense centre OK
+  Fornax               3.9e+07       927     0.028   0.007 -  0.042  dense centre OK
+  Andromeda VII        2.2e+07      1033     0.026   0.006 -  0.035  dense centre OK
+  Andromeda VI         5.7e+06       532     0.102   0.021 -  0.092  denser than untouched
+  Cassiopeia II        2.1e+05       243     0.392   0.080 -  0.247  denser than untouched
+  Andromeda XXVII      2.5e+05       434     0.193   0.030 -  0.120  denser than untouched
+  NGC 147              7.3e+08      1402     0.022   0.003 -  0.021  denser than untouched
+  NGC 185              3.0e+08       653     0.225   0.014 -  0.069  denser than untouched
+  smooth-centre candidate      2 / 38  (5%)
+  dense centre OK             31 / 38  (82%)
+  denser than untouched        5 / 38  (13%)
+
+(densities in Suns per cubic parsec; 'untouched range' = NFW clump of 1e8 to 3e9 Suns)

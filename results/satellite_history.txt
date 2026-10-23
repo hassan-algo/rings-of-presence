@@ -1,0 +1,58 @@
+LMC now 49.1 kpc from the Galactic centre, speed 320 km/s; closest in last 3 Gyr 47.5 kpc, farthest 249 kpc
+
+42 Milky Way satellites with full 3-D motions
+
+satellite           D now  closest   when    LMC  cross pull now pull avg snapshot  history     measured     tides
+Fornax                145     91kpc  1.77G    110    70M    0.063    0.062    13.02    13.02  12.10±0.60        ok
+Leo I                 262     54kpc  1.03G    268    33M    0.034    0.033     9.07     9.07   9.29±0.46        ok
+Sculptor               84     60kpc  0.42G     64    41M    0.108    0.109     7.12     7.12   9.20±1.10        ok
+Antlia II             125     51kpc  0.82G     98  1357M    0.072    0.115     2.89     2.29   5.98±0.36 STRETCHED
+Leo II                211     80kpc  1.62G    231    36M    0.042    0.041     5.29     5.29   7.53±0.38        ok
+Carina                107    107kpc -0.00G     62    62M    0.088    0.085     5.23     5.23   6.60±1.20        ok
+Draco                  82     51kpc  1.70G    131    55M    0.108    0.104     4.60     4.60   9.55±0.48        ok
+Ursa Minor             72     45kpc  1.30G    119    71M    0.123    0.118     4.58     4.59   8.86±0.44        ok
+Canes Venatici I      211     65kpc  1.20G    247    96M    0.042    0.042     4.45     4.45   7.66±0.42        ok
+Sextans                89     77kpc  0.25G     94   192M    0.100    0.107     3.41     3.30   7.90±1.30 STRETCHED
+Crater II             116     43kpc  1.62G    115   625M    0.077    0.068     2.06     2.20   2.34±0.36 STRETCHED
+Eridanus II           372    372kpc -0.00G    327    76M    0.024    0.024     3.07     3.07   6.90±1.05        ok
+Bootes I               64     43kpc  0.29G     99   154M    0.138    0.157     1.45     1.37   4.00±0.35 STRETCHED
+Bootes III             47     11kpc  0.15G     88   912M    0.187    0.190     0.67     0.67   1.69±0.94 STRETCHED
+Hercules              125     61kpc  0.51G    163    73M    0.071    0.074     2.15     2.11   2.25±0.64        ok
+Centaurus I           114     18kpc  1.97G    101    45M    0.079    0.076     2.04     2.04   4.20±0.55 STRETCHED
+Canes Venatici II     161     20kpc  2.00G    196    36M    0.055    0.053     1.96     1.96   5.28±1.10        ok
+Ursa Major I          102     55kpc  0.99G    137   154M    0.087    0.087     1.27     1.27   7.16±1.12 STRETCHED
+Leo IV                152     93kpc  1.45G    160    76M    0.058    0.058     1.72     1.73   3.29±0.78        ok
+Hydrus I               26     26kpc -0.00G     24    70M    0.334    0.285     0.90     0.97   2.70±0.47 STRETCHED
+Carina II              38     30kpc  0.07G     19   128M    0.222    0.268     0.85     0.78   3.40±1.00 STRETCHED
+Ursa Major II          41     42kpc  2.58G     79   150M    0.218    0.182     0.73     0.80   6.30±1.00 STRETCHED
+Leo V                 170    162kpc  0.32G    179    28M    0.052    0.051     1.64     1.64   3.37±1.38        ok
+Aquarius II           105     82kpc  0.72G    114   168M    0.085    0.089     0.99     0.96   4.70±1.50 STRETCHED
+Coma Berenices         43     43kpc  0.03G     79    77M    0.204    0.203     0.92     0.92   3.33±0.52        ok
+Pisces II             182    182kpc -0.00G    195    46M    0.049    0.047     1.60     1.60   3.72±1.66        ok
+Pegasus IV             89     29kpc  0.95G    124    36M    0.099    0.098     1.49     1.50   3.33±1.02        ok
+Columba I             187    187kpc -0.00G    149    92M    0.048    0.047     1.37     1.38   5.96±2.29        ok
+Pegasus III           213    213kpc -0.00G    228    69M    0.042    0.040     1.56     1.56   2.76±1.07        ok
+Grus I                123     41kpc  3.00G     98   142M    0.074    0.067     0.99     1.04   2.50±1.05 STRETCHED
+Tucana II              52     43kpc  2.58G     36   371M    0.172    0.112     0.46     0.57   3.80±0.90 STRETCHED
+Leo VI                114     51kpc  0.53G    139   139M    0.078    0.084     0.85     0.82   2.85±1.44 STRETCHED
+Eridanus IV            76     40kpc  1.96G     62    83M    0.118    0.109     0.85     0.89   6.10±1.05 STRETCHED
+Horologium I           80     79kpc  2.94G     38    39M    0.121    0.120     1.04     1.05   4.90±1.85        ok
+Reticulum II           33     43kpc  1.75G     22    77M    0.259    0.229     0.58     0.62   3.60±0.85        ok
+Tucana IV              44     44kpc  1.20G     26   340M    0.201    0.209     0.38     0.38   4.30±1.35 STRETCHED
+Bootes II              40     40kpc -0.00G     77    67M    0.225    0.205     0.61     0.64   1.92±0.69        ok
+Pictor II              46     40kpc  0.08G     12    73M    0.205    0.206     0.57     0.57   3.50±1.00        ok
+Willman 1              43     29kpc  0.38G     81    39M    0.208    0.207     0.67     0.68   4.70±1.40        ok
+Carina III             29     29kpc  0.01G     25    46M    0.299    0.287     0.54     0.55   5.60±3.20        ok
+Segue 1                28     22kpc  0.08G     58    89M    0.322    0.378     0.31     0.29   3.97±0.92 STRETCHED
+Tucana V               52     32kpc  1.54G     29    84M    0.176    0.176     0.35     0.36   1.20±0.75 STRETCHED
+
+Change from adding history + LMC: median +0.0%, range -21% to +24%
+Tidally stretched (r_tidal < 2 r_half at last closest approach): 18 of 42
+
+Summary (prediction uncertainty: star weight 1-4 as +/- 1 sigma):
+  all, snapshot                                    n=42  within 2 sigma  38%   median measured/predicted 2.60
+  not tidally stretched, snapshot                  n=24  within 2 sigma  46%   median measured/predicted 2.15
+  bright (M_V < -7.7), not stretched, snapshot     n= 8  within 2 sigma  62%   median measured/predicted 1.36
+  all, with history + LMC                          n=42  within 2 sigma  36%   median measured/predicted 2.65
+  not tidally stretched, with history + LMC        n=24  within 2 sigma  46%   median measured/predicted 2.15
+  bright (M_V < -7.7), not stretched, with history + LMC n= 8  within 2 sigma  62%   median measured/predicted 1.36
