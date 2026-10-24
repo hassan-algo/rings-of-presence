@@ -2,7 +2,7 @@
 
 **A simpler picture of gravity, tested against real data.**
 
-This repository holds the code behind the article *Rings of Presence: A Simpler Picture of Gravity, Tested Against Real Data* ([read it on Medium](MEDIUM_LINK_HERE)).
+This repository holds the code behind the research paper *Rings of Presence: one balance rule for gravitational boundaries, and the galactic acceleration scale as c²√(Λ/3)/2π* (Hassan Anwar, 2026; arXiv link to follow) and the article *Rings of Presence: A Simpler Picture of Gravity, Tested Against Real Data* (on Medium; link to follow).
 
 Every object is a ring, and its presence fills the inside. Presence never stops at an edge, so every ring encloses every other. These scripts turn that picture into formulas and test each one against public measurements: GPS clocks, Mercury's orbit, a binary pulsar, ocean tides, the moons of six planets, 175 galaxy rotation curves, 111 satellite galaxies, the Local Group and 1,590 supernovae.
 
@@ -10,7 +10,7 @@ Every object is a ring, and its presence fills the inside. Presence never stops 
 
 - **Where tested, it reproduces known physics exactly.** The full set of rules is equivalent to Einstein's general relativity plus standard cosmology. Its value is a simpler way to see the same physics, not better accuracy.
 - **One rule replaces four.** `r³ = G·m / S` gives the Hill sphere, the tidal radius, the Roche lobe and the turnaround radius.
-- **One new proposal:** a reason for the galaxy acceleration scale a₀, from the shape of a ring. It was found after looking at the data, so it still has to be tested on new data.
+- **One new proposal:** a reason for the factor 2π in the long-noticed relation a₀ ≈ c²√(Λ/3)/2π (Milgrom 1999). The total presence inside a ring, divided by its edge value and size, is 2π for a flat ring and for a ball, so a₀ = 0.86–0.94 × 10⁻¹⁰ m/s² with nothing adjustable. It was found after looking at the data, so it still has to be tested on new data.
 - **About a dozen ideas failed** and are reported as failures in the article.
 
 ## The formulas
@@ -22,9 +22,10 @@ Three readings     value of P   -> clock rates
                    change of the pull across an object -> stretch (tides) = 2·G·M·d / D³
 Ownership ring     r³ = G·m / S     S = 3·G·M / D³ inside a host,  S = Λ·c² / 3 inside emptiness
 Galaxy pattern     g_obs = g_bar / (1 − e^(−√(g_bar / a₀)))
-a₀ from the ring   a₀ = c²·√(Λ / 3) / k,   k = π·(1 + x),   x = (average P inside the ring ÷ P at the ring) − 1
-                   ball: x = ½, k = 3π/2  ->  a₀ = 1.15–1.26 × 10⁻¹⁰ m/s²
-                   flat ring: x = 1, k = 2π  ->  a₀ = 0.86–0.94 × 10⁻¹⁰ m/s²
+a₀ from the ring   a₀ = c²·√(Λ / 3) / k,   k = ∫ P dV / (P_edge · Rⁿ) = 2π for a flat ring (n = 2) and a ball (n = 3)
+                   ->  a₀ = 0.86 (Planck) – 0.94 (SH0ES) × 10⁻¹⁰ m/s²
+                   (earlier scripts k_ring_test.py and k_derivation_test.py use the older form k = π(1 + x),
+                    which mixed a 2-D area with a 3-D average; it is kept for the record)
 Superposition      τ = ħ / E_G,   E_G ≈ (6/5)·G·m² / R
 ```
 
@@ -49,6 +50,10 @@ python3 scripts/fit_a0.py data/SPARC/Rotmod_LTG
 python3 scripts/expansion_tests.py "data/pantheon_plus/Pantheon+_Data/4_DISTANCES_AND_COVAR"
 ```
 
+## The paper
+
+`paper/` holds the research paper (PDF and LaTeX source with figures). Every number in it comes from `paper_analysis.py` and `paper_additions.py`.
+
 ## The scripts
 
 | Script | What it tests | Data |
@@ -70,6 +75,8 @@ python3 scripts/expansion_tests.py "data/pantheon_plus/Pantheon+_Data/4_DISTANCE
 | `ultrafaint_centres.py` | faint satellites' centres against untouched dark matter | Local Volume Database |
 | `ring_tests.py` | planets' rings and their moons; galaxies' rings and satellites; the Local Group's ring from velocities | JPL; Local Volume Database |
 | `expansion_tests.py` | 1,590 supernovae: emptiness against six alternatives, with the full error matrix | Pantheon+ |
+| `paper_analysis.py` | every number and figure in the research paper: ring rule checks, the a₀ fits with bootstrap, intrinsic scatter and mass-to-light systematics, the gas-rich subsample and the size test | SPARC, Local Volume Database |
+| `paper_additions.py` | ladder of rings, a₀ at redshift 0.65–2.45 (41 disks from Price et al. 2021), robustness and visible-shape checks | SPARC, published high-redshift values |
 
 `fit_a0.py`, `delayed_presence_binary.py` and `satellite_predictions.py` also write CSV files (`a0_scan.csv`, `binary_separation.csv`, `satellite_predictions.csv`) into the folder they run from.
 
@@ -86,7 +93,9 @@ python3 scripts/expansion_tests.py "data/pantheon_plus/Pantheon+_Data/4_DISTANCE
 | Farthest moons of six planets | inside their rings | 0.02 to 0.46 of the way out |
 | Local Group's ring | at most 1.4–1.9 Mpc | 0.96 ± 0.03 Mpc |
 | Supernova distances | need emptiness | emptiness 66.8 ± 1.8%; alternatives worse by Δχ² = 48 to 1,902 |
-| a₀ (× 10⁻¹⁰ m/s², Planck) | 1.15 (ball) or 0.86 (flat ring) | 1.13 from all galaxies; 0.83 (+0.22/−0.16) from gas-rich ones |
+| a₀ (× 10⁻¹⁰ m/s²) | 0.86 (Planck) – 0.94 (SH0ES) | 0.82 (+0.22/−0.17) from 16 gas-rich galaxies; 1.14 ± 0.08 from all 164 at the usual star weight, matching at a 20% heavier one |
+| a₀ against redshift | constant | no rise from z = 0.65 to 2.45 in 41 disks (evolution not yet excluded) |
+| a₀ against galaxy properties | no dependence | none with size, distance, brightness, speed, gas or bulge fraction |
 
 The `results/` folder holds the full output of every script from the run reported in the article.
 

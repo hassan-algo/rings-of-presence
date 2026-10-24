@@ -1,0 +1,51 @@
+A. Predicted a0 = a_Lambda / k
+  Planck H0=67.4 OmegaL=0.685: a_Lambda = 5.4197e-10;  planar (k=2pi) 8.6257e-11;  spherical (k=3pi/2) 1.1501e-10   Lambda = 1.091e-52 m^-2
+  SH0ES  H0=73.0 OmegaL=0.7: a_Lambda = 5.9339e-10;  planar (k=2pi) 9.4441e-11;  spherical (k=3pi/2) 1.2592e-10   Lambda = 1.308e-52 m^-2
+  n = 2: k = 6.2832 = 2.0000 pi   (earlier form pi*n/(n-1) = 6.2832)
+  n = 3: k = 6.2832 = 2.0000 pi   (earlier form pi*n/(n-1) = 4.7124)
+  n = 4: k = 6.5797 = 2.0944 pi   (earlier form pi*n/(n-1) = 4.1888)
+
+B. SPARC: 3391 points in 175 galaxies; after velocity-error cut 2803 points in 164 galaxies
+  global, Upsilon_disk 0.5 / bulge 0.7: rms estimator a0 = 1.1285e-10 (scatter 0.144 dex); chi2 estimator (velocity errors only) a0 = 1.2157e-10, chi2 = 52567 for 2803 points
+  bootstrap over galaxies (rms estimator): a0 = 1.137e-10 (+7.37e-12/-7.72e-12)
+  stellar mass-to-light systematics (rms estimator): Ud=0.3: 2.028e-10; Ud=0.4: 1.472e-10; Ud=0.5: 1.128e-10; Ud=0.6: 8.995e-11; Ud=0.7: 7.382e-11
+  intrinsic scatter for chi2/dof = 1: 0.134 dex -> best a0 = 1.1395e-10
+  gas-rich galaxies (gas > 60% of baryonic acceleration where g_bar < 3e-10): 16: D631-7, DDO154, DDO161, DDO168, DDO170, ESO444-G084, F565-V2, KK98-251, NGC3109, NGC3741, UGC00731, UGC00891, UGC04483, UGC05764, UGCA442, UGCA444
+  gas-rich chi2 estimator: Ud=0.25: 9.182e-11; Ud=0.5: 8.066e-11; Ud=0.75: 7.178e-11
+  gas-rich rms estimator: Ud=0.25: 9.881e-11; Ud=0.5: 8.404e-11; Ud=0.75: 7.311e-11
+  gas-rich bootstrap over galaxies (chi2 estimator): a0 = 8.211e-11 (+2.17e-11/-1.74e-11)
+  gas-rich intrinsic scatter 0.170 dex -> best a0 8.413e-11
+  chi2 at candidate a0 (velocity errors + intrinsic scatter fitted to each sample):
+    all       best a0 1.139e-10:  planar, Planck: dchi2 = +274.6;  planar, SH0ES: dchi2 = +126.6;  spherical, Planck: dchi2 = +0.3;  spherical, SH0ES: dchi2 = +36.6
+    gas-rich  best a0 8.413e-11:  planar, Planck: dchi2 = +0.1;  planar, SH0ES: dchi2 = +2.7;  spherical, Planck: dchi2 = +19.9;  spherical, SH0ES: dchi2 = +33.3
+  galaxy-by-galaxy: 110 galaxies; median a0 1.154e-10; scatter 0.26 dex; median fit error 0.019 dex
+    a0 vs disk scale length: Spearman -0.09 (p = 0.35); vs outermost radius: -0.11 (p = 0.26)
+    x required (Planck): median 0.49, 16-84%: -0.19 to 1.69
+
+C. Ownership radius r^3 = G m / S
+  Earth    r =    1.50 Mkm; outermost Moon         at 0.257 r (prograde)
+  Mars     r =    1.08 Mkm; outermost Deimos       at 0.022 r (prograde)
+  Jupiter  r =   53.14 Mkm; outermost Kore         at 0.455 r (retrograde)
+  Saturn   r =   65.47 Mkm; outermost S/2004 S 52  at 0.404 r (retrograde)
+  Uranus   r =   70.08 Mkm; outermost Ferdinand    at 0.291 r (retrograde)
+  Neptune  r =  116.03 Mkm; outermost S/2021 N 1   at 0.437 r (retrograde)
+  Milky Way: ring 269 kpc; 68 satellites; beyond: 1 at 372 (38%)
+  Andromeda: ring 323 kpc; 43 satellites; beyond: 3 at 340 (5%), 368 (14%), 427 (32%)
+  total inside: 107 of 111
+  Local Group: 132 galaxies at 0.35-3 Mpc; 60 after removing satellites (within 300 kpc of the Milky Way or 330 kpc of M31)
+  fit v = H r (1 - (R0/r)^2): R0 = 0.792 Mpc (bootstrap 0.80 +0.07/-0.10), H = 76 km/s/Mpc, rms 64 km/s
+  outermost infalling field galaxy: Leo A at 0.94 Mpc (-37 km/s); next receding: Aquarius at 0.97 Mpc (+9 km/s)
+  Lambda limit R_L for M = 1.9e+12 Msun: 1.38 Mpc
+  Lambda limit R_L for M = 3.0e+12 Msun: 1.61 Mpc
+  Lambda limit R_L for M = 5.0e+12 Msun: 1.90 Mpc
+  Virgo: Lambda limit for M = 5.70e+14 Msun: 9.24 Mpc   (measured zero-velocity radius 7.2 +/- 0.7 Mpc)
+  Virgo: Lambda limit for M = 8.00e+14 Msun: 10.34 Mpc   (measured zero-velocity radius 7.2 +/- 0.7 Mpc)
+  Virgo: Lambda limit for M = 1.03e+15 Msun: 11.25 Mpc   (measured zero-velocity radius 7.2 +/- 0.7 Mpc)
+  full sample reproduces a0 = 8.626e-11 (Planck) at Upsilon_disk = 0.62
+  full sample reproduces a0 = 9.444e-11 (SH0ES) at Upsilon_disk = 0.58
+  Ud=0.5 all     : best a0 1.139e-10; prediction (Planck) dchi2 = +274.6
+  Ud=0.5 gas-rich: best a0 8.413e-11; prediction (Planck) dchi2 = +0.1
+  Ud=0.6 all     : best a0 9.073e-11; prediction (Planck) dchi2 = +8.4
+  Ud=0.6 gas-rich: best a0 7.945e-11; prediction (Planck) dchi2 = +1.3
+
+D. figures written to /home/claude/paper/figures

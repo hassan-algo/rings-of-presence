@@ -35,3 +35,6 @@ run ultrafaint_centres "$LVDB"
 # Rings within rings, and the expansion
 run ring_tests "$LVDB"
 run expansion_tests "$PPLUS"
+# Every number and figure in the paper (figures go to results/paper_figures)
+run paper_analysis "$SPARC" "$LVDB" "$ROOT/results/paper_figures"
+run paper_additions "$SPARC" "$ROOT/results/paper_figures"
